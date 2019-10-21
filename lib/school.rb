@@ -17,7 +17,7 @@ class School
   end 
   
   def sort
-      sorted = {}
+      sorted = [roster.sort_by {|n,g| n }]
       sorted.keys.each do |n,g|
         sorted[n].sort!
       end
