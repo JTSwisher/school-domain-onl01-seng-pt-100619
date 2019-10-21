@@ -17,7 +17,7 @@ class School
   end 
   
   def sort
-      sorted = Hash
+      sorted = {}
       sorted.keys.each do |n,g|
         sorted[n].sort!
       end
